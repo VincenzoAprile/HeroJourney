@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		543904872BBD822D00694323 /* Loop_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 543904862BBD822D00694323 /* Loop_music.wav */; };
 		543A2E7F2BAC7853002827FD /* GameAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A2E7E2BAC7853002827FD /* GameAppleApp.swift */; };
 		543A2E812BAC7853002827FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A2E802BAC7853002827FD /* ContentView.swift */; };
 		543A2E862BAC7853002827FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543A2E852BAC7853002827FD /* Preview Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		543A2E9C2BAC7854002827FD /* GameAppleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543A2E9B2BAC7854002827FD /* GameAppleUITestsLaunchTests.swift */; };
 		543A2ED72BB1B91B002827FD /* gain-coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 543A2ED62BB1B91B002827FD /* gain-coin.mp3 */; };
 		543A2ED92BB1B920002827FD /* game-over-arcade-6435.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 543A2ED82BB1B920002827FD /* game-over-arcade-6435.mp3 */; };
-		543A2EDB2BB1B927002827FD /* Loop_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 543A2EDA2BB1B927002827FD /* Loop_music.mp3 */; };
 		543A2EDF2BB1B93F002827FD /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 543A2EDE2BB1B93F002827FD /* MyScene.sks */; };
 		543A2EE52BB1B9D5002827FD /* enemy.sks in Resources */ = {isa = PBXBuildFile; fileRef = 543A2EE42BB1B9D5002827FD /* enemy.sks */; };
 		543A2EE72BB1B9D9002827FD /* knight.sks in Resources */ = {isa = PBXBuildFile; fileRef = 543A2EE62BB1B9D9002827FD /* knight.sks */; };
@@ -51,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		543904862BBD822D00694323 /* Loop_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Loop_music.wav; sourceTree = "<group>"; };
 		543A2E7B2BAC7853002827FD /* GameApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		543A2E7E2BAC7853002827FD /* GameAppleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAppleApp.swift; sourceTree = "<group>"; };
 		543A2E802BAC7853002827FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		543A2E9B2BAC7854002827FD /* GameAppleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAppleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		543A2ED62BB1B91B002827FD /* gain-coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gain-coin.mp3"; sourceTree = "<group>"; };
 		543A2ED82BB1B920002827FD /* game-over-arcade-6435.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over-arcade-6435.mp3"; sourceTree = "<group>"; };
-		543A2EDA2BB1B927002827FD /* Loop_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Loop_music.mp3; sourceTree = "<group>"; };
 		543A2EDE2BB1B93F002827FD /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		543A2EE42BB1B9D5002827FD /* enemy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = enemy.sks; sourceTree = "<group>"; };
 		543A2EE62BB1B9D9002827FD /* knight.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = knight.sks; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 				543A2E802BAC7853002827FD /* ContentView.swift */,
 				543A2ED62BB1B91B002827FD /* gain-coin.mp3 */,
 				543A2ED82BB1B920002827FD /* game-over-arcade-6435.mp3 */,
-				543A2EDA2BB1B927002827FD /* Loop_music.mp3 */,
+				543904862BBD822D00694323 /* Loop_music.wav */,
 				543A2EDE2BB1B93F002827FD /* MyScene.sks */,
 				543A2F062BB31CF6002827FD /* MyScene.swift */,
 				543A2EEA2BB1B9E1002827FD /* MainScene.swift */,
@@ -283,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				543A2ED72BB1B91B002827FD /* gain-coin.mp3 in Resources */,
-				543A2EDB2BB1B927002827FD /* Loop_music.mp3 in Resources */,
+				543904872BBD822D00694323 /* Loop_music.wav in Resources */,
 				543A2E862BAC7853002827FD /* Preview Assets.xcassets in Resources */,
 				543A2F092BB31DA0002827FD /* Hero.sks in Resources */,
 				543A2F652BBD7C6C002827FD /* Assets.xcassets in Resources */,
